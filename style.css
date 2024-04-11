@@ -33,7 +33,7 @@
     color: white;
     background-color: #f24662;
     border-radius: 15px;
-    width: 100px;
+    width: 90px;
     height: 30px;
 }
 #skill2{
@@ -62,16 +62,36 @@
 }
 .icons{
     display: flex;
-    gap:29px;
 }
 #udemy{
-    width: 30px;
-    height: 30px;
+    width: 9px;
+    height: 9px;
 }
 .icons2{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 @media screen and  (max-width:600px){
+    .firstheading{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .icons{
+        display: flex;
     
+        flex-wrap: wrap;
+    }
+    #udemy{
+        width: 30px;
+        height: 30px;
+    }
+    .monthly{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
