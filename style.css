@@ -1,0 +1,77 @@
+.firstnav{
+    display: flex;
+    justify-content: baseline ;
+
+}
+#skill{
+    color: cadetblue;
+}
+#hero{
+    color:#f24662;
+}
+#login{
+    color:#f24662;
+    border-radius: 15px;
+    border-color: #f24662;
+    width: 70px;
+    height: 30px;
+
+}
+.nav{
+    display: flex;
+    gap: 40px;
+}
+#join{
+    color: white;
+    background-color: #f24662;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+
+}
+#explore{
+    color: white;
+    background-color: #f24662;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+#skill2{
+    border: 10px 10px;
+}
+.monthly{
+    display: flex;
+    justify-content: baseline;
+}
+#tick{
+    width: 25px;
+    height: 25px;
+}
+.programs{
+    color: cadetblue;
+}
+.upgrade{
+  
+    color: rgb(20, 20, 105);
+}
+#super{
+    color: #f24662;
+}
+.firstheading{
+    display: flex;
+}
+.icons{
+    display: flex;
+    gap:29px;
+}
+#udemy{
+    width: 30px;
+    height: 30px;
+}
+.icons2{
+    width: 30px;
+    height: 30px;
+}
+@media screen and  (max-width:600px){
+    
+}
