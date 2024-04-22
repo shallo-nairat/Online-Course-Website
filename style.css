@@ -1,6 +1,9 @@
 .firstnav{
     display: flex;
     /* justify-content: space-evenly; */
+    margin-top: 1%;
+    gap: 2px;
+    
     
 
 
@@ -8,8 +11,8 @@
 .navbars{
     gap: 9%;
     /* justify-content: space-evenly; */
-    display: flex;
-    margin-left: 4%;
+    /* display: flex; */
+    margin-left: 5%;
 }
        
 nav{flex: 1;
@@ -32,9 +35,12 @@ a{
 
 #skill{
     color: cadetblue;
+    margin: 10%;
 }
 #hero{
     color:#f24662;
+    margin: 10%;
+
 }
 #login{
     color:#f24662;
@@ -66,9 +72,7 @@ a{
     width: 90px;
     height: 30px;
 }
-#skill1{
-    border-radius: 4px;
-}
+
 #skill2{
     border: 10px 10px;
 }
@@ -91,18 +95,15 @@ a{
 #super{
     color: #f24662;
 }
-.firstheading{
+.landingpage{
     display: flex;
     justify-content: space-evenly; 
     font-size:20px;
-    margin-right: 25%;
-}
-.first{
-    
+    margin-right:7%;
 }
 .icons{
     display: flex;
-    margin-right:4% ;
+    margin-right:2% ;
     font-size: 20px;
     justify-content: space-evenly;
     margin-top: 4%
@@ -120,11 +121,12 @@ a{
     
 }
 #image2{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+    margin-left: 15%;
 }
-@media screen and  (max-width:700px){
-    .firstheading{
+@media screen and  (min-width:375px) and (max-width:700px){
+    .landingpage{
         display: flex;
         flex-wrap: wrap;
     }
@@ -140,6 +142,11 @@ a{
 
     
     }
+    #image2{
+        width: 300px;
+        height: 300px;
+        
+    }
     #udemy{
         width: 30px;
         height: 30px;
@@ -148,4 +155,35 @@ a{
         display: flex;
         flex-wrap: wrap;
     }
+    #menu-toggle{
+        display:none;
+      }
+      .hamburger-menu{
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 20px;
+        height: 26px;
+      }
+    
+}
+@media screen and  (min-width:701px) and (max-width:1024px){
+
+    #image2{
+        width: 200px;.firstheading{
+            display: flex;
+            justify-content: space-evenly; 
+            font-size:20px;
+            margin-right:7%;
+        }
+        height: 200px;
+    }
+    .landingpage{
+        display: flex;
+        font-size:20px;
+        margin-right:7%;
+    }
+
 }
